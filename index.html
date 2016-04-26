@@ -1,0 +1,38 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Jquery UI</title>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+   <link rel="stylesheet" href="index.css">
+	<script src="external/jquery/jquery.js"></script>
+	<script src="jquery-ui.js"></script>
+</head>
+
+<body>
+   <div id="tabs">
+      <ul>
+         <li><a href="#page">Deskpot</a></li>
+      </ul>
+      <div id="tabs-1">
+         <div id="datepicker"></div>
+         <div id="dialog" title="Bienvenido">
+           <p>Esta es la típica frase que te gusta cuando enciendes el ordenador</p>
+         </div>
+         <ul id="menu">
+         <li>Apagar</li>
+         <li>Panel de control</li>
+         <li>Equipo</li>
+         <li onclick="javascript:toggleVisibility()">Calendario</li>
+         <div id="draggable" class="column">
+            <p>Fichero</p>
+         </div>
+         <div id="droppable" class="column" >
+            <p>Papelera de reciclaje</p>
+         </div>
+      </div>
+   </div>
+<script src="jqueryui.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
